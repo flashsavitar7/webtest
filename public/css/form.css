@@ -1,0 +1,522 @@
+/* public/css/form.css */
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Montserrat;
+
+}
+
+.form-container {
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-grow: 1;
+    color: var(--primary-color, #29166F);
+    background-color: rgba(244, 244, 244, 1);
+}
+
+
+.form-container > div:nth-child(2) {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    gap: 8px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    padding: 16px 8px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+.header-con {
+    gap: 8px;
+    width: 100%; /* Expand to full width */
+    height: 64px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 0 120px;
+    margin: 0; /* Add padding instead of margins for horizontal spacing */
+    background-color: rgba(255, 255, 255, 1);
+}
+.contact-info {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    gap: 82px;
+    flex-grow: 1;
+    width: 700px;
+    height: auto;
+    margin-left: 610px;
+    padding: 0;
+    font-size: 14px;
+}
+
+/* ... (Your existing CSS code) */
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-top: 8px; /* Add margin for spacing */
+}
+
+/* ... (Your existing CSS code) */
+
+
+.text-2 {
+    margin-top: 8px;
+}
+
+.text-4{
+    margin-top: 8px;
+}
+
+
+.logo1{
+    position: absolute;
+    left: 119px;
+    top: 20px;
+}
+
+.logo2{
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+.logos{
+    top: 0px;
+    margin-left: 110px;
+    width: 220px;
+    height: 64px;
+    position: absolute;
+    flex-grow: 1;
+
+}
+
+
+.forme {
+    top: 212px;
+    margin-left: 120px; /* Adjust the left margin */
+    margin-right: 120px; /* Adjust the right margin */
+    width: calc(100% - 240px); /* Adjust the width calculation */
+    height: 1670px;
+    display: flex;
+    overflow: auto;
+    position: absolute;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+
+
+.main-text {
+    text-align: center;
+    margin-top: 144px;
+    margin-left: 120px;
+
+    padding: 0;
+
+    color: var(--primary-color, #29166F);
+    height: auto;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+
+}
+.background-square{
+    background: rgba(41, 22, 111, 0.40);
+    filter: blur(159.2274627685547px);
+    width: 397px;
+    height: 393px;
+    position: absolute;
+    top: 100px;
+    margin-top: 144px;
+    margin-left: 1090px;
+
+    border-radius: 393.292px;
+
+}
+
+
+.background-square2{
+    background: rgba(41, 22, 111, 0.40);
+    filter: blur(159.2274627685547px);
+    top: 1155px;
+    width: 397px;
+    height: 393px;
+    position: absolute;
+    left: -217px;
+    border-radius: 393.292px;
+
+}
+
+.l_txt{
+    position: absolute;
+    top: 100px;
+    margin-top: 1850px;
+    margin-left: 490px;
+}
+
+ .test {
+    margin-top: 144px;
+    margin-left: 120px;
+ }
+.form-box {
+    margin-top: 43px;
+    margin-left: 48px;
+}
+
+.header-txt {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    position: relative;
+}
+
+.header-txt::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 40px;
+    width: 48px;
+    height: 4px;
+    background-color: #29166F;
+    border-radius: 5px;
+}
+
+
+.head-txt {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 48px;
+    margin-top: 40px;
+}
+.input-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.input-row1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.input-row label {
+    font-family: 'Montserrat', 'serif';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-bottom: 8px;
+}
+
+.birthday-select {
+    display: flex;
+    gap: 8px;
+    width: 240px;
+}
+
+.birthday-select select {
+    flex-grow: 1;
+    padding: 8px;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #F5F5F5;
+}
+
+
+/*#grade {
+    margin-left: -135px;
+}*/
+
+
+
+.input-row input {
+    width: 240px;
+    padding: 8px;
+    align-items: center;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #F5F5F5;
+}
+.input-row select {
+
+    background-color: transparent;
+
+    width: 256px;
+    font-style: normal;
+    
+    padding: 10px;
+    align-items: center;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #F5F5F5;
+}
+
+.box {
+    color: #999;
+    opacity: 1;
+}
+.personal {
+    margin-top: 68px;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 64px;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.submit-button button {
+    padding: 14px 24px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    background: var(--primary-color, #29166F);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.add-button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 50px;
+
+    font-family: Montserrat;
+}
+
+.add-button .logo3 {
+    margin-right: 8px;
+    width: 20px; 
+    height: 20px; 
+}
+
+
+.l_text{
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        gap: 4px;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        padding: 8px 4px;
+        align-items: center;
+        flex-shrink: 0;
+        flex-direction: column;
+    }
+
+    .header-con {
+        gap: 4px;
+        width: 100%; /* Expand to full width */
+        height: auto; /* Auto height for responsiveness */
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        padding: 8px 12px; /* Adjust padding for smaller screens */
+        margin: 0; /* Add padding instead of margins for horizontal spacing */
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .contact-info {
+        gap: 4px;
+        font-size: 8px; /* Adjust font size for smaller screens */
+        margin-right: 2px; /* Adjust right margin for spacing */
+        position: absolute;
+        top: 0;
+        right: 0;
+        flex-direction: column; /* Stack contact info vertically */
+    }
+    .logo1,
+    .logo2 {
+        position: static; /* Change position to static for smaller screens */
+        margin: 0; /* Add margin for spacing */
+        width: 16px; /* Adjust logo size for smaller screens */
+        height: 16px;
+        top: 70px;
+
+    }
+
+    .logos {
+        width: 140px;
+        height: 35px; /* Adjust logo height for smaller screens */
+        margin-bottom: 8px;
+        margin-left: 30px; /* Add margin for spacing */
+    }
+
+    .main-text {
+        margin-top: 200px; /* Adjust margin for spacing */
+        margin-left: 20px; /* Adjust margin for spacing */
+        text-align: center; /* Center text for smaller screens */
+    }
+
+    .form-container {
+        width: 100%;
+        height: 2400px;
+        
+    }
+
+
+    .forme {
+        top: 250px;
+        margin-left: 12px;
+        margin-right: 12px;
+        width: calc(100% - 24px);
+        height: 1200px;
+    }
+
+    .rows {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .input-row {
+        margin-bottom: 20px;
+    }
+
+    .input-row label,
+    .input-row input,
+    .input-row select {
+        width: 100%;
+        margin-right: 60px;
+    }
+
+    .input-row select {
+        width: 220px;
+        
+    }
+
+    .submit-button {
+        margin-top: 15px;
+
+    }
+
+    
+}
+
+@media screen and (max-width: 400px){
+    .forme {
+        top: 250px;
+        margin-left: 12px;
+        margin-right: 12px;
+        width: calc(100% - 24px);
+        height: 2000px;
+    }
+
+    .rows {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .input-row {
+        margin-bottom: 20px;
+    }
+
+    .input-row label,
+    .input-row input,
+    .input-row select {
+        width: 100%;
+        margin-right: 30px;
+    }
+
+    .input-row select {
+        width: 220px;
+        
+    }
+}
