@@ -2,6 +2,8 @@
 
 This is a web application built using the Laravel framework.
 
+**please Note this web app is not fully responsive on mobile devices yet and please run on a PC**
+
 ## Getting Started
 
 Follow these instructions to get the project up and running on your local machine for development and testing purposes.
