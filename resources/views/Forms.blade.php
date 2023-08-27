@@ -71,7 +71,7 @@
                     <div class="rows">
                         <div class="input-row">
                             <label for="surname">Surname</label>
-                            <input type="text" id="surname" name="surname" required placeholder="Surname">
+                            <input type="text" id="surname" name="surname" required placeholder="Enter Surname">
                         </div>
                         <div class="input-row">
                             <label for="firstName">First Name</label>
@@ -79,14 +79,14 @@
                         </div>
                         <div class="input-row">
                             <label for="middleName">Middle Name</label>
-                            <input type="text" id="middleName" name="middleName" required placeholder="Middle Name">
+                            <input type="text" id="middleName" name="middleName" required placeholder="Enter Middle Name">
                         </div>
                     </div>
 
                     <div class="rows">
                         <div class="input-row">
                             <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" required placeholder="Email Address">
+                            <input type="email" id="email" name="email" required placeholder="Enter Email Address">
                         </div>
                         <div class="input-row">
                             <label for="gender">Gender</label>
@@ -100,7 +100,7 @@
                         </div>
                         <div class="input-row">
                             <label for="phoneNumber">Phone Number</label>
-                            <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Phone Number">
+                            <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Enter Phone Number">
                         </div>
                     </div>
 
