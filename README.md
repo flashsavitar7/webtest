@@ -27,9 +27,11 @@ Make sure you have the following software installed on your system:
 2. Install PHP dependencies:
     composer install
 
-3.   Running the Application
-   Start the development server:
-   **php artisan serve**
+3.Running the Application
+
+Start the development server:
+**php artisan serve**
+
 Open your web browser and navigate to http://localhost:8000 to see the application in action.
 
 
