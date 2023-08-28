@@ -25,9 +25,9 @@ Make sure you have the following software installed on your system:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
-
+   
 2. Install PHP dependencies:
-    composer install
+    **composer install**
 
 3.Running the Application
 
